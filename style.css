@@ -46,6 +46,13 @@ p {
     justify-content: center;
 }
 
+.video {
+    display: flex;
+    margin-bottom: 5vh;
+    flex-direction: column; 
+    align-items: center;
+}
+
 /* checkbox code */
 .container {
     display: block;
