@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Sono&display=swap" rel="stylesheet">
+    <title>how to bury a body</title>
+</head>
+
+<body>
+    <div class="panel panel-1" style="visibility:visible;">
+        <h2 class="panel-1" id="top-text">so... you want to know how to bury a body?</h2>
+        <h3 class="panel-1">check the box to start. don't worry, we won't tell.</h3>
+        <div class="panel-1 check">
+            <span class="check-box">
+                <script type="text/javascript">
+                    function showhidebutton(checkready) {
+                        var toggle = document.getElementById("ready-button");
+                        toggle.style.visibility = checkready.checked ? "visible" : "hidden";
+                    }
+                </script>
+                <label name="victim" class="container">
+                    <input type="checkbox" id="checkready" onclick="showhidebutton(this)">
+                    <span class="checkmark"></span>
+                </label>
+            </span>
+            <span class="check-box-text">
+                <p>i have a murder victim</p>
+            </span>
+        </div>
+        <div class="panel-1 ready-button" id="ready-button">
+            <button onclick="fadepanel1()">
+                start
+            </button>
+        </div>
+    </div>
+    <div class="panel panel-2">
+        <h2 class="panel-2">step 1: </h2>
+        <div class="panel-2 next-button">
+            <button onclick="fadepanel2()">
+                next
+            </button>
+        </div>
+    </div>
+    <div class="panel panel-3">
+        <h2 class="panel-3">step 2: </h2>
+        <div class="panel-3 next-button">
+            <button onclick="fadepanel3()">
+                next
+            </button>
+        </div>
+    </div>
+    <div class="panel panel-4">
+        <h2 class="panel-4">step 3: </h2>
+        <div class="panel-4 next-button">
+            <button onclick="fadepanel4()">
+                next
+            </button>
+        </div>
+    </div>
+    <div class="panel panel-5">
+        <h2 class="panel-5">congrats!</h2>
+        <h3 class="panel-5">your IP and GPS coordinates have been shared with the police. they are on their way.</h3>
+    </div>
+</body>
+
+</html>
